@@ -1,0 +1,38 @@
+body {
+  background-color: gray;
+}
+
+caption {
+  font-family: 'Lucida Sans';
+  font-size: large;
+  padding-bottom: 30px;
+}
+
+table {
+  text-align: center;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: #f6f6f6;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  Height: 50%;
+  margin-top: auto;
+}
+
+td, th {
+  border: 2px solid black;
+  padding: 30px;
+}
+
+th {
+  background: rgb(73, 59, 59);
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+
+tbody > tr:hover {
+  background-color: yellowgreen;
+}
+
